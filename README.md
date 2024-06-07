@@ -1,6 +1,6 @@
 # 校园易购二手平台系统
 
-![](C:\Users\xz317\Pictures\校园易购\logo\logo.png)
+![](images/pps/logo.png)
 
 ## 一、技术栈简介
 
@@ -82,7 +82,7 @@ http://xxxxxx:8090
 
 ## 三、数据库设计
 
-![](C:\WorkSpace\StudyResources\Go_Workspace\mall-shopx\images\数据库关系.png)
+![](images/数据库关系.png)
 
 ## 四、核心系统功能
 
@@ -153,9 +153,23 @@ http://xxxxxx:8090
 
 #### 前台商城系统
 
-![](C:\WorkSpace\StudyResources\Go_Workspace\mall-shopx\images\pps\e.png)
+![](images/pps/e.png)
 
-![](C:\WorkSpace\StudyResources\Go_Workspace\mall-shopx\images\pps\home.png)
+![](images\pps\home.png)
+
+![](images/pps/d3.png)
+
+![](images/pps/aa.png)
+
+![](images/pps/sd.png)
+
+![](images/pps/a1.png)
+
+#### 后端管理系统
+
+![](images/pps/c.png)
+
+![](images/pps/a.png)
 
 ## 六、可能出现的问题
 
