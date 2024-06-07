@@ -1,0 +1,7 @@
+host: '192.168.3.200'
+port: 8448
+namespace: 'dd59ca5b-0229-4a93-92d7-b9f52a05c718'
+user: 'nacos'
+password: 'nacos'
+dataid: 'order-srv.json'
+group: 'dev'

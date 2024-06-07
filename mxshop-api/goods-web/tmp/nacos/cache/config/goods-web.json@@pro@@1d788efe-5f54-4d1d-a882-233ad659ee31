@@ -1,0 +1,10 @@
+{
+	"jwt": {
+		"key": "VYLDYq3&hGWjWqF$K1ih"
+	},
+	"jaeger": {
+		"host": "",
+		"port": 0,
+		"name":""
+	}
+}

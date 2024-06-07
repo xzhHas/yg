@@ -1,0 +1,102 @@
+2024-03-06T20:19:08.339+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-06T20:19:10.555+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-srv.json","group":"pro","tenant":"11537d69-3c33-41cd-91ee-b0740e8b1df8"}>, call domain error:<Get "http://59.110.34.61:8849/nacos/v1/cs/configs?dataId=user-srv.json&group=pro&tenant=11537d69-3c33-41cd-91ee-b0740e8b1df8": dial tcp 59.110.34.61:8849: connectex: No connection could be made because the target machine actively refused it.> , result:<>
+2024-03-06T20:19:12.736+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-srv.json","group":"pro","tenant":"11537d69-3c33-41cd-91ee-b0740e8b1df8"}>, call domain error:<Get "http://59.110.34.61:8849/nacos/v1/cs/configs?dataId=user-srv.json&group=pro&tenant=11537d69-3c33-41cd-91ee-b0740e8b1df8": dial tcp 59.110.34.61:8849: connectex: No connection could be made because the target machine actively refused it.> , result:<>
+2024-03-06T20:19:14.943+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-srv.json","group":"pro","tenant":"11537d69-3c33-41cd-91ee-b0740e8b1df8"}>, call domain error:<Get "http://59.110.34.61:8849/nacos/v1/cs/configs?dataId=user-srv.json&group=pro&tenant=11537d69-3c33-41cd-91ee-b0740e8b1df8": dial tcp 59.110.34.61:8849: connectex: No connection could be made because the target machine actively refused it.> , result:<>
+2024-03-06T20:19:14.943+0800	[31mERROR[0m	config_client/config_client.go:202	get config from server error:Get "http://59.110.34.61:8849/nacos/v1/cs/configs?dataId=user-srv.json&group=pro&tenant=11537d69-3c33-41cd-91ee-b0740e8b1df8": dial tcp 59.110.34.61:8849: connectex: No connection could be made because the target machine actively refused it. 
+2024-03-06T20:19:14.944+0800	[31mERROR[0m	config_client/config_client.go:216	get config from cache  error:failed to read config cache file:tmp/nacos/cache\config\user-srv.json@@pro@@11537d69-3c33-41cd-91ee-b0740e8b1df8,err:open tmp/nacos/cache\config\user-srv.json@@pro@@11537d69-3c33-41cd-91ee-b0740e8b1df8: The system cannot find the path specified.  
+2024-03-06T20:28:03.906+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<C:\AD\Go_Workspace\mall-shop\mxshop_srvs\user_srv/tmp/nacos/log>   cacheDir:<C:\AD\Go_Workspace\mall-shop\mxshop_srvs\user_srv/tmp/nacos/cache>
+2024-03-06T20:28:06.181+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-srv.json","group":"pro","tenant":"11537d69-3c33-41cd-91ee-b0740e8b1df8"}>, call domain error:<Get "http://59.110.34.61:8849/nacos/v1/cs/configs?group=pro&tenant=11537d69-3c33-41cd-91ee-b0740e8b1df8&dataId=user-srv.json": dial tcp 59.110.34.61:8849: connectex: No connection could be made because the target machine actively refused it.> , result:<>
+2024-03-06T20:28:08.363+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-srv.json","group":"pro","tenant":"11537d69-3c33-41cd-91ee-b0740e8b1df8"}>, call domain error:<Get "http://59.110.34.61:8849/nacos/v1/cs/configs?tenant=11537d69-3c33-41cd-91ee-b0740e8b1df8&dataId=user-srv.json&group=pro": dial tcp 59.110.34.61:8849: connectex: No connection could be made because the target machine actively refused it.> , result:<>
+2024-03-06T20:28:10.556+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-srv.json","group":"pro","tenant":"11537d69-3c33-41cd-91ee-b0740e8b1df8"}>, call domain error:<Get "http://59.110.34.61:8849/nacos/v1/cs/configs?dataId=user-srv.json&group=pro&tenant=11537d69-3c33-41cd-91ee-b0740e8b1df8": dial tcp 59.110.34.61:8849: connectex: No connection could be made because the target machine actively refused it.> , result:<>
+2024-03-06T20:28:10.556+0800	[31mERROR[0m	config_client/config_client.go:202	get config from server error:Get "http://59.110.34.61:8849/nacos/v1/cs/configs?dataId=user-srv.json&group=pro&tenant=11537d69-3c33-41cd-91ee-b0740e8b1df8": dial tcp 59.110.34.61:8849: connectex: No connection could be made because the target machine actively refused it. 
+2024-03-06T20:28:10.557+0800	[31mERROR[0m	config_client/config_client.go:216	get config from cache  error:failed to read config cache file:C:\AD\Go_Workspace\mall-shop\mxshop_srvs\user_srv/tmp/nacos/cache\config\user-srv.json@@pro@@11537d69-3c33-41cd-91ee-b0740e8b1df8,err:open C:\AD\Go_Workspace\mall-shop\mxshop_srvs\user_srv/tmp/nacos/cache\config\user-srv.json@@pro@@11537d69-3c33-41cd-91ee-b0740e8b1df8: The system cannot find the path specified.  
+2024-03-08T08:23:20.712+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-08T08:39:51.636+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-08T08:48:13.973+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-08T08:53:50.252+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-08T09:32:58.784+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-08T14:23:56.388+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-08T14:35:45.564+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-08T14:37:41.330+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-08T14:38:59.463+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-08T14:43:42.187+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-08T15:00:10.041+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-08T15:10:26.979+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-08T15:10:52.640+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-08T15:18:36.939+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-08T15:18:48.643+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-08T15:32:26.451+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-08T15:35:22.266+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-08T15:39:31.453+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-08T15:45:44.923+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-08T15:51:40.438+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-08T19:57:19.020+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T00:53:44.311+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T13:52:08.034+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T13:55:52.168+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T13:57:18.121+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T14:08:31.033+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T14:21:49.581+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T15:02:30.398+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T15:10:48.446+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T15:14:32.101+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T15:15:01.222+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T15:24:47.338+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T15:27:44.861+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T15:29:06.242+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T16:42:18.293+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T16:43:33.758+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T17:42:11.400+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T17:43:11.062+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T17:48:58.724+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T17:58:54.336+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T18:14:37.241+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T20:00:33.492+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T20:01:14.348+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T20:04:04.522+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T20:14:49.152+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T20:15:33.002+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T20:17:27.030+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T20:23:08.628+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T20:23:13.648+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-srv.json","group":"pro","tenant":"11537d69-3c33-41cd-91ee-b0740e8b1df8"}>, call domain error:<Get "http://59.110.34.61:8848/nacos/v1/cs/configs?dataId=user-srv.json&group=pro&tenant=11537d69-3c33-41cd-91ee-b0740e8b1df8": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2024-03-09T20:25:47.460+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T20:40:31.184+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T21:01:49.870+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T21:05:53.843+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T21:13:25.947+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T21:14:33.372+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T21:15:33.886+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T21:16:46.177+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T21:17:40.601+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T21:20:16.583+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-09T21:21:02.656+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-10T11:39:10.151+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-10T12:20:10.277+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-19T20:26:31.331+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-03-22T15:07:54.539+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-24T18:32:14.736+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-24T18:32:14.742+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"userop_srv.json","group":"pro","tenant":"53ddfb2a-c543-4d43-94fb-8c2c228872a8"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-05-24T18:32:14.745+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"userop_srv.json","group":"pro","tenant":"53ddfb2a-c543-4d43-94fb-8c2c228872a8"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-05-24T18:32:14.747+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"userop_srv.json","group":"pro","tenant":"53ddfb2a-c543-4d43-94fb-8c2c228872a8"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-05-24T18:32:14.747+0800	[31mERROR[0m	config_client/config_client.go:202	get config from server error:[404] config data not exist
+ 
+2024-05-24T18:32:14.747+0800	[33mWARN[0m	config_client/config_client.go:207	[client.GetConfig] config not found, dataId: userop_srv.json, group: pro, namespaceId: 53ddfb2a-c543-4d43-94fb-8c2c228872a8.
+2024-05-24T18:32:46.965+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-26T17:09:33.265+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-27T11:10:59.473+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-28T12:16:21.535+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-28T12:35:32.166+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-29T10:53:06.155+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-29T19:37:08.684+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-31T11:59:35.401+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-06-01T09:12:31.423+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-06-01T11:39:18.546+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-06-02T17:28:57.354+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-06-06T16:18:35.507+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-06-07T13:16:00.823+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>

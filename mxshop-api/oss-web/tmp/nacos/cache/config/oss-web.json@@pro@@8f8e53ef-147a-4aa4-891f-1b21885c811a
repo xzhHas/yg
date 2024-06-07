@@ -1,0 +1,20 @@
+{
+    "name":"oss-web",
+    "host":"192.168.3.152",
+    "port":8023,
+    "tags":["oss-web","xiwanli"],
+    "jwt":{
+        "key":"asdfasdfFDSF4r32#04#"
+    },
+    "consul":{
+        "host":"192.168.3.200",
+        "port":8500
+    },
+    "oss":{
+        "key":"LTAI5tS3WukTbeCjfP7B52xm",
+        "secrect":"Mj47fAm4fA3Rc9rRUoVoM2JINUvV2Y",
+        "host":"http://mxx-shop.oss-cn-beijing.aliyuncs.com",
+        "callback_url":"http://vuau2r.natappfree.cc/oss/v1/oss/callback",
+        "upload_dir":""
+    }
+}

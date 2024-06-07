@@ -1,0 +1,52 @@
+2024-05-22T20:26:24.950+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-22T20:31:16.892+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-22T21:01:31.357+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-22T21:07:08.105+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-22T21:08:36.755+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-22T21:09:39.454+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-22T21:11:16.682+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-22T21:36:04.415+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-22T21:42:08.255+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-23T13:54:03.003+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-23T13:56:06.006+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-23T14:07:32.555+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-23T19:48:46.648+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-24T09:25:20.282+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-24T09:25:25.303+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"17f6579b-c591-424e-a6ac-f69b9ee92d63"}>, call domain error:<Get "http://192.168.3.200:8448/nacos/v1/cs/configs?group=pro&tenant=17f6579b-c591-424e-a6ac-f69b9ee92d63&dataId=user-web.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2024-05-24T09:25:30.307+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"17f6579b-c591-424e-a6ac-f69b9ee92d63"}>, call domain error:<Get "http://192.168.3.200:8448/nacos/v1/cs/configs?tenant=17f6579b-c591-424e-a6ac-f69b9ee92d63&dataId=user-web.json&group=pro": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2024-05-24T09:25:35.316+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"17f6579b-c591-424e-a6ac-f69b9ee92d63"}>, call domain error:<Get "http://192.168.3.200:8448/nacos/v1/cs/configs?tenant=17f6579b-c591-424e-a6ac-f69b9ee92d63&dataId=user-web.json&group=pro": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2024-05-24T09:25:35.316+0800	[31mERROR[0m	config_client/config_client.go:202	get config from server error:Get "http://192.168.3.200:8448/nacos/v1/cs/configs?tenant=17f6579b-c591-424e-a6ac-f69b9ee92d63&dataId=user-web.json&group=pro": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 
+2024-05-24T09:27:40.027+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-24T10:20:15.116+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-24T10:20:20.128+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"17f6579b-c591-424e-a6ac-f69b9ee92d63"}>, call domain error:<Get "http://192.168.3.200:8448/nacos/v1/cs/configs?dataId=user-web.json&group=pro&tenant=17f6579b-c591-424e-a6ac-f69b9ee92d63": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2024-05-24T10:20:25.133+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"17f6579b-c591-424e-a6ac-f69b9ee92d63"}>, call domain error:<Get "http://192.168.3.200:8448/nacos/v1/cs/configs?dataId=user-web.json&group=pro&tenant=17f6579b-c591-424e-a6ac-f69b9ee92d63": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2024-05-24T10:20:30.135+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"17f6579b-c591-424e-a6ac-f69b9ee92d63"}>, call domain error:<Get "http://192.168.3.200:8448/nacos/v1/cs/configs?tenant=17f6579b-c591-424e-a6ac-f69b9ee92d63&dataId=user-web.json&group=pro": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2024-05-24T10:20:30.135+0800	[31mERROR[0m	config_client/config_client.go:202	get config from server error:Get "http://192.168.3.200:8448/nacos/v1/cs/configs?tenant=17f6579b-c591-424e-a6ac-f69b9ee92d63&dataId=user-web.json&group=pro": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 
+2024-05-24T10:21:37.294+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-24T10:21:42.307+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"17f6579b-c591-424e-a6ac-f69b9ee92d63"}>, call domain error:<Get "http://192.168.3.200:8448/nacos/v1/cs/configs?group=pro&tenant=17f6579b-c591-424e-a6ac-f69b9ee92d63&dataId=user-web.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2024-05-24T10:21:47.308+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"17f6579b-c591-424e-a6ac-f69b9ee92d63"}>, call domain error:<Get "http://192.168.3.200:8448/nacos/v1/cs/configs?dataId=user-web.json&group=pro&tenant=17f6579b-c591-424e-a6ac-f69b9ee92d63": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2024-05-24T10:21:52.311+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"17f6579b-c591-424e-a6ac-f69b9ee92d63"}>, call domain error:<Get "http://192.168.3.200:8448/nacos/v1/cs/configs?dataId=user-web.json&group=pro&tenant=17f6579b-c591-424e-a6ac-f69b9ee92d63": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2024-05-24T10:21:52.311+0800	[31mERROR[0m	config_client/config_client.go:202	get config from server error:Get "http://192.168.3.200:8448/nacos/v1/cs/configs?dataId=user-web.json&group=pro&tenant=17f6579b-c591-424e-a6ac-f69b9ee92d63": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 
+2024-05-24T14:09:04.320+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-24T14:11:26.308+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-24T14:18:56.240+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-26T16:32:57.775+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-26T16:52:47.675+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-26T17:31:46.251+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-26T17:39:18.718+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-26T17:40:06.312+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-26T17:51:55.452+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-26T17:52:35.563+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-26T17:54:44.354+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-27T11:08:57.915+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-28T12:02:13.861+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-28T12:02:15.917+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"17f6579b-c591-424e-a6ac-f69b9ee92d63"}>, call domain error:<Get "http://192.168.3.200:8448/nacos/v1/cs/configs?dataId=user-web.json&group=pro&tenant=17f6579b-c591-424e-a6ac-f69b9ee92d63": dial tcp 192.168.3.200:8448: connectex: No connection could be made because the target machine actively refused it.> , result:<>
+2024-05-28T12:15:25.978+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-28T12:35:14.468+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-29T10:52:47.429+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-29T19:36:19.278+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-05-31T11:58:47.224+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-06-01T09:12:57.353+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-06-02T17:28:30.104+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-06-06T16:19:09.902+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-06-07T13:15:43.031+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>

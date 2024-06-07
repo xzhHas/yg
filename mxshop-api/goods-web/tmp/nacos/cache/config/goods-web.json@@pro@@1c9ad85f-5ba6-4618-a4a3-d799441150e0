@@ -1,0 +1,10 @@
+{
+	"jwt": {
+		"key": "VYLDYq3&hGWjWqF$K1ih"
+	},
+	"jaeger": {
+		"host": "1.92.93.194",
+		"port": 6831,
+		"name":"ja_web_api"
+	}
+}

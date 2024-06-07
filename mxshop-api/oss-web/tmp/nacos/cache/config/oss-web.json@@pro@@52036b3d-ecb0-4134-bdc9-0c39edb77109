@@ -1,0 +1,12 @@
+{
+	"jwt": {
+		"key": "VYLDYq3&hGWjWqF$K1ih"
+	},
+	"oss": {
+		"key": "LTAI5t98VcmjvWJVwJrooxqZ",
+		"secrect": "wNDNHdPKSlT4NFqBGY474v6XfTgnWg",
+		"host":"http://mx-shop.oss-cn-beijing.aliyuncs.com",
+		"callback_url":"http://192.168.217.1:8029/oss/v1/oss/callback",
+		"upload_dir":"mxshop_images"
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "name":"userop-web",
+    "host":"192.168.3.152",
+    "port":8025,
+    "tags":["userop-web","xiwanli"],
+    "userop_srv":{
+        "name":"userop-srv"
+    },
+    "goods_srv":{
+        "name":"goods-srv"
+    },
+    "jwt":{
+        "key":"asdfasdfFDSF4r32#04#"
+    },
+    "consul":{
+        "host":"192.168.3.200",
+        "port":8500
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name":"inventory-srv",
+    "tags":["inventory-srv","xiwanli"],
+    "host":"192.168.3.152",
+    "mysql":{
+        "host":"127.0.0.1",
+        "port":3306,
+        "db":"mxshop_inventory_srv",
+        "user":"root",
+        "password":"xiwanli"
+    },
+    "consul":{
+        "host":"192.168.3.200",
+        "port":8500
+    }
+}

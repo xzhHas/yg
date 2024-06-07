@@ -1,0 +1,7 @@
+{
+	"host": "59.110.34.61",
+	"port": 3306,
+	"user": "root",
+	"password": "123456x",
+	"db": "mxshop_userop_srv"
+}

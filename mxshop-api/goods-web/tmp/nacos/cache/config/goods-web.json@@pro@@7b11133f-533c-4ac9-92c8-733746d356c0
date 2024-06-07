@@ -1,0 +1,24 @@
+{
+    "name":"goods-web",
+    "host":"192.168.3.152",
+    "port":8021,
+    "tags":["goods-web","xiwanli"],
+    "goods_srv":{
+        "name":"goods-srv"
+    },
+    "inventory_srv":{
+        "name":"inventory-srv"
+    },
+    "jwt":{
+        "key":"asdfasdfFDSF4r32#04#"
+    },
+    "consul":{
+        "host":"192.168.3.200",
+        "port":8500
+    },
+    "jaeger":{
+        "host":"192.168.3.200",
+        "port":6831,
+        "name":"mxshop"
+    }
+}
